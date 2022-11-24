@@ -5,7 +5,7 @@ pipeline
     {
         string(defaultValue: "", description: "Profile Name", name: "Name")
         choice(choices: ["Male", "Female"], description: "Gender", name: "Gender")
-        booleanParam(defaultValue: "false", description: "Confirm Details?", name: "Confirm")
+        booleanParam(defaultValue: "false", description: "Confirm Details?", name: "Confirm?")
     }
     stages
     {
